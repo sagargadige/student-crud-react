@@ -9,10 +9,6 @@ Modern student CRUD interface built with React + Vite, featuring clean light UI,
   <img src="https://img.shields.io/badge/React_Router-7-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white" alt="React Router 7" />
 </p>
 
-## Preview
-
-![Student Management UI Preview](./docs/screenshots/student-management-preview.svg)
-
 ## Key Features
 
 - Add, update, and delete student records
