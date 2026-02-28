@@ -1,0 +1,97 @@
+<svg width="1366" height="768" viewBox="0 0 1366 768" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1366" y2="768" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF" />
+      <stop offset="1" stop-color="#E9F1FF" />
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" />
+      <stop offset="1" stop-color="#F4F8FF" />
+    </linearGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2F66F6" />
+      <stop offset="1" stop-color="#4F85FF" />
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-opacity="0.16" flood-color="#2B4D8A" />
+    </filter>
+  </defs>
+
+  <rect width="1366" height="768" fill="url(#bg)" />
+  <circle cx="1180" cy="20" r="230" fill="#D9E7FF" fill-opacity="0.6" />
+  <circle cx="130" cy="80" r="180" fill="#D6FAEE" fill-opacity="0.5" />
+
+  <rect x="86" y="54" width="1194" height="68" rx="18" fill="#FFFFFF" stroke="#D8E5FA" />
+  <text x="120" y="96" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#1D3E7F">
+    Student Management
+  </text>
+  <rect x="924" y="73" width="108" height="34" rx="17" fill="url(#btn)" />
+  <text x="963" y="95" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Home</text>
+  <rect x="1042" y="73" width="148" height="34" rx="17" fill="#F4F8FF" stroke="#BDD1F7" />
+  <text x="1072" y="95" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#34568F">Student Data</text>
+
+  <g filter="url(#shadow)">
+    <rect x="86" y="150" width="565" height="560" rx="26" fill="url(#card)" stroke="#D9E4F8" />
+  </g>
+  <text x="124" y="208" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#163368">
+    Register Student
+  </text>
+  <text x="124" y="240" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#5D6F8F">
+    Add, edit, and manage student credentials quickly.
+  </text>
+
+  <text x="124" y="290" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#2A4A77">Email Address</text>
+  <rect x="124" y="304" width="488" height="58" rx="12" fill="#FFFFFF" stroke="#CFE0FA" />
+  <text x="148" y="339" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#8DA0BF">
+    student@example.com
+  </text>
+
+  <text x="124" y="394" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#2A4A77">Password</text>
+  <rect x="124" y="408" width="488" height="58" rx="12" fill="#FFFFFF" stroke="#CFE0FA" />
+  <text x="148" y="443" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#8DA0BF">********</text>
+
+  <rect x="124" y="504" width="488" height="58" rx="12" fill="url(#btn)" />
+  <text x="322" y="541" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">Add Student</text>
+  <rect x="124" y="575" width="488" height="58" rx="12" fill="#FFFFFF" stroke="#90AEEB" stroke-dasharray="6 6" />
+  <text x="292" y="612" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#2E5795">Go To Student List</text>
+
+  <g filter="url(#shadow)">
+    <rect x="684" y="150" width="596" height="560" rx="26" fill="url(#card)" stroke="#D9E4F8" />
+  </g>
+  <text x="720" y="208" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#163368">
+    Student Data
+  </text>
+  <text x="720" y="240" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#5D6F8F">
+    Search by email and manage records using quick actions.
+  </text>
+
+  <rect x="720" y="278" width="355" height="54" rx="12" fill="#FFFFFF" stroke="#CFE0FA" />
+  <text x="746" y="312" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#8DA0BF">Search by email...</text>
+  <rect x="1098" y="278" width="182" height="54" rx="12" fill="url(#btn)" />
+  <text x="1146" y="312" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">Add New</text>
+
+  <rect x="720" y="352" width="560" height="64" rx="10" fill="#EDF3FF" />
+  <text x="752" y="391" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#274776">Action</text>
+  <text x="1025" y="391" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#274776">Email</text>
+
+  <rect x="720" y="425" width="560" height="72" rx="10" fill="#FFFFFF" stroke="#E0EAFB" />
+  <rect x="752" y="446" width="86" height="34" rx="8" fill="#FFFFFF" stroke="#2F66F6" />
+  <text x="782" y="468" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#2F66F6">Edit</text>
+  <rect x="848" y="446" width="98" height="34" rx="8" fill="#FFFFFF" stroke="#D9303E" />
+  <text x="875" y="468" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#D9303E">Delete</text>
+  <text x="1025" y="468" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#335786">student1@gmail.com</text>
+
+  <rect x="720" y="507" width="560" height="72" rx="10" fill="#F9FBFF" stroke="#E0EAFB" />
+  <rect x="752" y="528" width="86" height="34" rx="8" fill="#FFFFFF" stroke="#2F66F6" />
+  <text x="782" y="550" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#2F66F6">Edit</text>
+  <rect x="848" y="528" width="98" height="34" rx="8" fill="#FFFFFF" stroke="#D9303E" />
+  <text x="875" y="550" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#D9303E">Delete</text>
+  <text x="1025" y="550" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#335786">student2@gmail.com</text>
+
+  <rect x="720" y="589" width="560" height="72" rx="10" fill="#FFFFFF" stroke="#E0EAFB" />
+  <rect x="752" y="610" width="86" height="34" rx="8" fill="#FFFFFF" stroke="#2F66F6" />
+  <text x="782" y="632" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#2F66F6">Edit</text>
+  <rect x="848" y="610" width="98" height="34" rx="8" fill="#FFFFFF" stroke="#D9303E" />
+  <text x="875" y="632" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#D9303E">Delete</text>
+  <text x="1025" y="632" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#335786">student3@gmail.com</text>
+</svg>

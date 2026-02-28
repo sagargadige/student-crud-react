@@ -1,23 +1,26 @@
-# Student Management App (React + Vite)
+# Student Management App
 
-A clean and responsive student CRUD app built with React, Vite, Bootstrap, and React Router.
+Modern student CRUD interface built with React + Vite, featuring clean light UI, instant search, toast feedback, and localStorage persistence.
 
-This project helps you:
-- add student records
-- edit existing records
-- delete records
-- search students by email
-- keep data saved in localStorage
+<p align="left">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React 19" />
+  <img src="https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite 7" />
+  <img src="https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap 5" />
+  <img src="https://img.shields.io/badge/React_Router-7-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white" alt="React Router 7" />
+</p>
 
-## Features
+## Preview
 
-- Student add and update form
-- Student data table with live email search
-- Edit and delete actions with styled buttons
-- Toast popup messages for all main actions
-- Client-side routing using React Router
-- Data persistence using browser localStorage
-- Light theme UI with improved typography and spacing
+![Student Management UI Preview](./docs/screenshots/student-management-preview.svg)
+
+## Key Features
+
+- Add, update, and delete student records
+- Search students by email in real-time
+- Styled action buttons (`Edit` outline blue, `Delete` outline red)
+- Toast popup messages for all major actions
+- Route-based navigation (`Home` and `Student Data`)
+- Data persistence in browser localStorage (`students`)
 
 ## Tech Stack
 
@@ -27,10 +30,40 @@ This project helps you:
 - Bootstrap 5
 - ESLint 9
 
+## Quick Start
+
+```bash
+npm install
+npm run dev
+```
+
+Open the local URL shown in terminal (usually `http://localhost:5173`).
+
+## Usage Flow
+
+1. Fill in email and password on the Home page.
+2. Click `Add Student` to save.
+3. Open `Student Data` from navbar.
+4. Use search bar to filter by email.
+5. Click `Edit` to load a record back into the form.
+6. Click `Delete` to remove a record.
+
+## Available Scripts
+
+| Script | Description |
+| --- | --- |
+| `npm run dev` | Start development server |
+| `npm run build` | Create production build |
+| `npm run preview` | Preview production build |
+| `npm run lint` | Run ESLint checks |
+
 ## Project Structure
 
 ```text
 std-mngt/
+  docs/
+    screenshots/
+      student-management-preview.svg
   public/
   src/
     components/
@@ -45,52 +78,8 @@ std-mngt/
   README.md
 ```
 
-## Getting Started
-
-### 1. Install dependencies
-
-```bash
-npm install
-```
-
-### 2. Start development server
-
-```bash
-npm run dev
-```
-
-### 3. Open in browser
-
-Use the local URL shown in terminal (typically `http://localhost:5173`).
-
-## Available Scripts
-
-- `npm run dev` - Start Vite dev server
-- `npm run build` - Create production build
-- `npm run preview` - Preview production build locally
-- `npm run lint` - Run ESLint checks
-
-## How to Use
-
-1. Open the Home page and enter email + password.
-2. Click `Add Student` to save the record.
-3. Open `Student Data` from the navbar to view all records.
-4. Use the search bar to filter by email.
-5. Click `Edit` to modify a record, or `Delete` to remove it.
-6. See popup messages for action feedback.
-
-## Data Storage
-
-Student data is stored in browser localStorage with key:
-
-```text
-students
-```
-
-Clearing browser storage will remove saved records.
-
 ## Notes
 
-- This is a frontend-only project (no backend/database API).
-- Password is stored as plain text for demo purposes.
-- You can extend this with validation, authentication, and backend integration.
+- Frontend-only project (no backend/API yet).
+- Current password field is for demo CRUD behavior.
+- You can extend this with form validation, auth, and backend integration.
